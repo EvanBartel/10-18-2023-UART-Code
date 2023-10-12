@@ -31,9 +31,6 @@ The `Slave_Arduino.ino` file contains the code for the slave Arduino. It listens
 
 ## Usage
 
-1. Upload the `Master_Arduino` code to the master Arduino and the `Slave_Arduino` code to the slave Arduino.
-2. Ensure the wiring is set up correctly as described in the wiring section.
-3. Open the Arduino IDE and connect to the master Arduino.
 4. Open the serial monitor and select the baud rate (9600 by default).
 5. Follow the prompts on the master Arduino's serial monitor to send commands and control the slave or send data to the slave.
 
