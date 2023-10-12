@@ -16,26 +16,7 @@ Connect the two Arduino boards for UART communication using Software Serial:
 
 - **Master Arduino:**
   - Pin 2 (TX) to Slave Arduino Pin 2 (RX)
-  - Pin 3 (RX) to Slave Arduino Pin 3 (TX)
-
-- **Slave Arduino:**
-  - Connect a GPIO pin (e.g., Pin 5) to an LED or other output device, if controlling GPIO is required.
-
-## Master Arduino Code
-
-The `Master_Arduino.ino` file contains the code for the master Arduino. It allows you to send commands to control the slave Arduino's GPIO pin or send data to be displayed on the slave's serial monitor. Instructions for installation and usage are provided in the code comments.
-
-## Slave Arduino Code
-
-The `Slave_Arduino.ino` file contains the code for the slave Arduino. It listens for commands from the master Arduino. If a control command is received, it adjusts the GPIO pin's state accordingly. If data is received from the master, it prints the data on its serial monitor.
-
-## Usage
-
-4. Open the serial monitor and select the baud rate (9600 by default).
-5. Follow the prompts on the master Arduino's serial monitor to send commands and control the slave or send data to the slave.
-
-## Contributing
-
+  - Pin 3 (RX) to Slave Arduino Pin 3 (TX
 We welcome contributions! If you'd like to contribute to this project, please follow our [Contribution Guidelines](CONTRIBUTING.md).
 
 ## License
